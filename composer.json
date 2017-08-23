@@ -14,5 +14,13 @@
   "autoload": {
     "files": ["registration.php"],
     "psr-4": {"Pyxl\\Core\\": ""}
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Pyxl/Core"
+      ]
+    ]
   }
 }
